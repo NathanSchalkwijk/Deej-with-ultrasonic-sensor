@@ -1,5 +1,6 @@
 const int trigPin = 12; //change these to your ultrasonic sensor pins
 const int echoPin = 13; //change these to your ultrasonic sensor pins
+int duration;
 void setup() {
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
