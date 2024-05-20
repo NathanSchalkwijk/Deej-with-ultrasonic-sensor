@@ -13,7 +13,7 @@ void loop() {
     digitalWrite(trigPin, HIGH);
     delayMicroseconds(10);
     digitalWrite(trigPin, LOW);
-    duration = pulseIn(echoPin, HIGH) * 0.5;
+    duration = pulseIn(echoPin, HIGH) * 0.5; //0.5 is around 30cm for max volume, change if you want a smaller or bigger range
     Serial.println(duration);
   
 }
